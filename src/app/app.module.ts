@@ -10,6 +10,12 @@ import { ChatComponent } from './chat/chat.component';
 import { APP_ROUTES } from './app.route';
 import { AngularFontAwesomeModule } from "angular-font-awesome";
 import { DirectMessagingComponent } from './chat/direct-messaging/direct-messaging.component';
+import { ChatPageComponent } from './chat/chat-page/chat-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon'
+import { MatTooltipModule } from '@angular/material/tooltip'
+import { MatButtonModule } from '@angular/material/button';
+import { ChannelPageComponent } from './chat/channel-page/channel-page.component'
 
 @NgModule({
   declarations: [
@@ -17,13 +23,19 @@ import { DirectMessagingComponent } from './chat/direct-messaging/direct-messagi
     SidebarComponent,
     ChatComponent,
     DirectMessagingComponent,
+    ChatPageComponent,
+    ChannelPageComponent,
 
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(APP_ROUTES),
     AppRoutingModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatTooltipModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

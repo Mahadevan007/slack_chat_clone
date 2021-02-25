@@ -27,30 +27,32 @@ const notifications: INotification[] = [
 
     // messages 
     {
-        name: 'Mahadevan',
+        name: 'Ashwin',
         unread: 1,
         active: true,
-        type: 'message'
+        type: 'message',
+        userId: 'ash1234'
     },
     {
         name: 'Arun',
-        type: 'message'
-    },
-    {
-        name: 'Ashwin',
-        type: 'message'
+        type: 'message',
+        userId: 'arun1234',
     },
     {
         name: 'Vinoth',
-        type: 'message'
+        type: 'message',
+        userId: 'vinoth55',
+
     },
     {
         name: 'Karthik',
-        type: 'message'
+        type: 'message',
+        userId: 'karthik78',
     },
     {
         name: 'Aravind',
-        type: 'message'
+        type: 'message',
+        userId: 'aravind11'
     }
 ]
 

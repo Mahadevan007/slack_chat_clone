@@ -44,12 +44,13 @@ header {
 }
 
 .main-content {
-  background-color: azure;
-  width: 100%;
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
   display: flex;
   overflow-y: scroll;
   flex-direction: column;
   height: 100vh;
+  overflow-x: scroll;
 }
 
 .backdrop {
@@ -184,9 +185,11 @@ input:checked + .slider:before {
 ::-webkit-scrollbar {
   width: 12px;
   background: #f8f8f8;
+  visibility: hidden;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(transparent, black);
   border-radius: 6px;
+  visibility: visible;
 }

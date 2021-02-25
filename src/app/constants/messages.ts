@@ -2,26 +2,54 @@ import { IChatMessage } from '../interfaces/ichat-message';
 
 const messages: IChatMessage[] = [
     {
-        userId: 'eddieos',
-        username: 'Endurance Ekhoragbon',
+        userId: 'ash1234',
+        username: 'Ashwin',
         message: 'Hello thanks for viewing my slack ui clone',
-        image: 'assets/imgs/eddieos.jpeg',
         timestamp: new Date()
     },
     {
-        userId: 'eddieos',
-        username: 'Endurance Ekhoragbon',
-        message: 'Hope you enjoy using it in <strong>bold</strong>',
-        image: 'assets/imgs/eddieos.jpeg',
+        userId: 'arun1234',
+        username: 'Arun',
+        message: 'Hope you enjoy using it in bold',
         timestamp: new Date()
     },
     {
-        userId: 'theo4u',
-        username: 'Theophilus Omoregbee',
-        message: 'Thanks <a href="#" class="user-highlight tooltips">Endurance Ekhoragbon</a> this is a very nice slack clone UI',
-        image: 'assets/imgs/theophy.jpeg',
+        userId: 'karthik78',
+        username: 'Karthik',
+        message: 'This is a very nice slack clone UI',
+        timestamp: new Date()
+    },
+    {
+        userId: 'karthik78',
+        username: 'Karthik',
+        message: 'This is a very new slack clone UI',
+        timestamp: new Date()
+    },
+    {
+        userId: 'vinoth55',
+        username: 'Vinoth',
+        message: 'This is a very nice slack clone UI',
+        timestamp: new Date()
+    },
+    {
+        userId: 'aravind11',
+        username: 'Aravind',
+        message: 'This is a very nice slack clone UI',
+        timestamp: new Date()
+    },
+    {
+        userId: 'aravind11',
+        username: 'Aravind',
+        message: 'This is a very nice slack clone UI',
+        timestamp: new Date()
+    },
+    {
+        userId: 'vinoth55',
+        username: 'Vinoth',
+        message: 'This is a very nice slack clone UI',
         timestamp: new Date()
     }
+
 ]
 
 export default messages
